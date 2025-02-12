@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --animate-typewriter: typing 4s steps(35) forwards, blink 0.7s infinite;
+  --animate-backspace: backspace 2s steps(35) forwards, blink 0.7s infinite;
+
+  @keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  @keyframes backspace {
+    0% { width: 100%; }
+    100% { width: 0; }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+    100% { border-color: #00bf63; }
+  }
+}
+@layer utilities {
+  @keyframes wave {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes wave-reverse {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-wave {
+    animation: wave 6s infinite linear;
+  }
+
+  .animate-wave-reverse {
+    animation: wave-reverse 6s infinite linear;
+  }
+}
+
+
+
+  
+@keyframes textSlide {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+      
+    }
+    50% {
+      transform: translateY(-100%);
+      opacity: 0;
+      
+    }
+    51% {
+      transform: translateY(100%);
+      opacity: 0;
+     
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      
+    }
+  }
