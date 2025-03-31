@@ -188,7 +188,7 @@ const ProjectSection = () => {
                         boxShadow: "0px 10px 40px rgba(0, 191, 99, 0.5)", 
                         transition: { duration: 0.4, ease: "easeOut" },
                     }}
-                    className="w-[90%] md:w-full h-[570px] md:h-[350px] border-2 border-[#00bf63] rounded-4xl mt-18 flex flex-col md:flex-row justify-between items-center p-8 relative bg-[#09101A] transition-all"
+                    className="w-[90%] md:w-full h-[810px] md:h-[350px] border-2 border-[#00bf63] rounded-4xl mt-18 flex flex-col md:flex-row justify-between items-center p-8 relative bg-[#09101A] transition-all"
                 >
                     {/* Image Section with Depth Effect */}
                     <motion.img
