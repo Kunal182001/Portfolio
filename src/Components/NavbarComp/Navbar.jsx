@@ -61,7 +61,7 @@ const Navbar = () => {
           initial={{ opacity: 0, y: 20 }} // Fade in & slide up
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className='w-[40%] hidden md:flex justify-between items-center text-[18px] p-5 text-[#FFFFFF] font-semibold'>
+          className='w-[45%] hidden md:flex justify-between items-center text-[18px] p-5 text-[#FFFFFF] font-semibold'>
           {/* HOME */}
           <Link to="home" smooth={true} duration={600} className="text-[#FFFFFF] group cursor-pointer ">
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.7s_ease-in-out_forwards]">H</span>
@@ -80,9 +80,23 @@ const Navbar = () => {
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.3s_ease-in-out_forwards]">M</span>
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.4s_ease-in-out_forwards]">E</span>
           </Link >
+            {/* EXPERIENCE */}
+          <Link to="experince" smooth={true} duration={1000} className="text-[#FFFFFF] group cursor-pointer ">
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.7s_ease-in-out_forwards]">E</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.8s_ease-in-out_forwards]">X</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.9s_ease-in-out_forwards]">P</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1s_ease-in-out_forwards]">E</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.1s_ease-in-out_forwards]">R</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.2s_ease-in-out_forwards]">I</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.3s_ease-in-out_forwards]">E</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.4s_ease-in-out_forwards]">N</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.5s_ease-in-out_forwards]">C</span>
+            <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_1.6s_ease-in-out_forwards]">E</span>
+
+          </Link >
 
           {/* PROJECTS */}
-          <Link to="projects" smooth={true} duration={1000} className="text-[#FFFFFF] group cursor-pointer ">
+          <Link to="projects" smooth={true} duration={1200} className="text-[#FFFFFF] group cursor-pointer ">
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.7s_ease-in-out_forwards]">P</span>
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.8s_ease-in-out_forwards]">R</span>
             <span className="inline-block group-hover:text-[#00bf63] group-hover:animate-[textSlide_0.9s_ease-in-out_forwards]">O</span>
@@ -107,7 +121,7 @@ const Navbar = () => {
           </Link>
 
         </motion.div>
-        
+
         {/* Mobile Menu Button */}
         <div className="md:hidden pr-10">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-[#00bf63] text-4xl">

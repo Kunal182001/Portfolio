@@ -4,12 +4,14 @@ import Aboutsection from './Aboutsection'
 import ProjectSection from './ProjectSection'
 import ContactSection from './ContactSection'
 import FooterSection from './FooterSection'
+import ExperienceSection from './ExperienceSection'
 
 const Home = () => {
   return (
     <>
       <section id="home"  ><HomeMidSection /></section>
       <section id="about"><Aboutsection /></section>
+      <section id="experince"><ExperienceSection /></section>
       <section id="projects"><ProjectSection /></section>
       <section id="contact"><ContactSection /></section>
       <FooterSection />

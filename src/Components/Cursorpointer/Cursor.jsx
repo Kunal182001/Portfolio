@@ -25,7 +25,7 @@ const Cursor = () => {
     }, []);
     return (
         <motion.div
-        className=" hidden md:fixed top-0 left-0 pointer-events-none mix-blend-difference"
+        className="hidden md:fixed md:block top-0 left-0 pointer-events-none mix-blend-difference"
         animate={{
           x: position.x - (isHoveringNavbar ? 40 : 20), // Centering the cursor
           y: position.y - (isHoveringNavbar ? 40 : 20),
