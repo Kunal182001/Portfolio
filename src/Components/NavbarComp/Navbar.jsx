@@ -133,9 +133,9 @@ const Navbar = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="absolute top-[80px] left-0 w-full bg-[#141C27] flex flex-col items-center  md:hidden"
+              className="absolute top-[80px] left-0 w-full bg-[#141C27] flex flex-col items-center gap-1  md:hidden"
             >
-              {["home", "about", "projects", "contact"].map((item, index) => (
+              {["home", "about","experince", "projects", "contact"].map((item, index) => (
                 <Link
                   key={index}
                   to={item}

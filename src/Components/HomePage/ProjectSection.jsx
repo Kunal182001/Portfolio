@@ -11,7 +11,7 @@ import { LuDownload } from "react-icons/lu";
 const ProjectSection = () => {
     return (
         <div className='w-full  bg-[#09101A] flex justify-center pt-[130px]'>
-            <div className='w-full md:w-[85%] flex flex-col items-center md:items-start'>
+            <div className='w-full md:w-[85%] flex flex-col items-center md:items-start mt-[400px] md:mt-0'>
                 {/* Projects */}
                 <motion.p
                     initial={{ opacity: 0, x: -50 }}
