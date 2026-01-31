@@ -116,7 +116,7 @@ const HomeMidSection = () => {
                  className='w-full flex flex-col md:flex-row justify-start items-center gap-10 mt-18 md:mt-5'>
                     {/* Download section */}
                     <motion.a
-                        href="https://drive.usercontent.google.com/download?id=1MQ_ZA0Km6FnWH2KR6gREqTjXNEvTeGr1"
+                        href="https://drive.usercontent.google.com/download?id=12F9ZcSqhs08oh5TBY5vbBfDxxHGZcaMs"
                         download
                         className="w-[170px] h-[60px] text-[#09101A] rounded-2xl font-bold 
                             font-[Lato] bg-[#00bf63] flex justify-between items-center p-6 cursor-pointer relative overflow-hidden"

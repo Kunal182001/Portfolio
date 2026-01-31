@@ -55,26 +55,27 @@ const Aboutsection = () => {
             name: "React",
             url: "https://cdn-icons-png.flaticon.com/128/875/875209.png"
         },
-        {
+         {
             id: 11,
+            name: "Next.js",
+            url: "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png"
+        },
+        {
+            id: 12,
             name: "API integration",
             url: "https://cdn-icons-png.flaticon.com/128/13542/13542989.png"
         },
         {
-            id: 12,
+            id: 13,
             name: "Unity",
             url: "https://cdn-icons-png.flaticon.com/128/5969/5969346.png"
         },
         {
-            id: 13,
+            id: 14,
             name: "Unreal Engine 4",
             url: "https://www.citypng.com/public/uploads/preview/unreal-engine-black-logo-icon-png-701751694969791yzh1krpqaa.png"
         },
-        {
-            id: 14,
-            name: "Visual Studio",
-            url: "https://cdn-icons-png.flaticon.com/128/15713/15713436.png"
-        },
+       
 
     ]
     return (
