@@ -68,7 +68,7 @@ const ExperienceSection = () => {
                         transition={{ delay: 0.8, duration: 1, ease: "easeOut" }}
                     >
                         <p className="text-xl md:text-2xl font-extrabold text-[#00bf63]">Frontend Developer — KV IT Solutions Pvt. Ltd.</p>
-                        <p className="text-[18px] md:text-xl font-bold text-[#00bf63]">July 2024 – Present</p>
+                        <p className="text-[18px] md:text-xl font-bold text-[#00bf63]">June 2024 – Present</p>
 
                         <p className="text-[18px] md:text-xl font-bold text-[#00bf63] mt-2">Key Responsibilities:</p>
 
