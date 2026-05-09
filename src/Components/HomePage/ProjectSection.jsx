@@ -115,7 +115,7 @@ const ProjectSection = () => {
                         boxShadow: "0px 10px 40px rgba(0, 191, 99, 0.5)", // Green glowing shadow
                         transition: { duration: 0.4, ease: "easeOut" },
                     }}
-                    className="w-[90%] md:w-full h-[550px] md:h-[300px] border-2 border-[#00bf63] rounded-4xl mt-18 flex flex-col md:flex-row justify-between items-center p-8 relative bg-[#09101A] transition-all"
+                    className="w-[90%] md:w-full h-[570px] md:h-[300px] border-2 border-[#00bf63] rounded-4xl mt-18 flex flex-col md:flex-row justify-between items-center p-8 relative bg-[#09101A] transition-all"
                 >
                     {/* Image Section with Depth Effect */}
                     <motion.img
@@ -147,7 +147,7 @@ const ProjectSection = () => {
                         </p>
 
                         {/* Tech Stack Badges with Flip Animation */}
-                        <div className="w-full flex justify-start items-center text-[#FFFFFF] mt-5 gap-4">
+                        <div className="w-full grid grid-cols-2 md:grid-cols-5 text-[#FFFFFF] mt-5 gap-4">
                             {["NEXT.js", "JAVASCRIPT", "TAILWINDCSS", "MONGODB"].map((tech, index) => (
                                 <motion.p
                                     key={index}
